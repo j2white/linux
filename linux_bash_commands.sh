@@ -18,3 +18,6 @@ grep -Ril --exclude-dir={dir1,dir2} 'target_phrase' >> target_phrase_results.txt
 grep '^fred' /etc/passwd             # find 'fred', but only at the start of a line
 grep '[FG]oo' *                      # find Foo or Goo in all files in the current dir
 grep '[0-9][0-9][0-9]' *             # find all lines in all files in the current dir with three numbers in a row
+
+# check the uptime of the server
+cat /proc/uptime
