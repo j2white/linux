@@ -17,3 +17,6 @@ fi
 # diff-r /directoryA /directoryB will provide you the line numbers and text that is different for given files. 
 	# It will also provide an indication if a file exists in one place but not the other
 diff -r /users/user1/production /users/user2/production
+
+# ouptut the differences in two directories to a file
+diff -r /users/user1/production /users/user2/production > diff.txt
