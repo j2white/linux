@@ -20,3 +20,7 @@ diff -r /users/user1/production /users/user2/production
 
 # ouptut the differences in two directories to a file
 diff -r /users/user1/production /users/user2/production > diff.txt
+
+# update the timestamp on files in a direcory
+touch *.py
+touch *.sql
